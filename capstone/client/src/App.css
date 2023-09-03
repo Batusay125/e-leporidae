@@ -331,4 +331,20 @@ img, video {
   .loginPage .container .videoDiv .footerDiv .btn, .registerPage .container .videoDiv .footerDiv .btn {
     padding: 0.4rem 1.5rem;
   }
+  .loginPage .container .videoDiv .formDiv, .registerPage .container .videoDiv .formDiv {
+    gap: 1rem;
+    transform: translateY(-0.5rem);
+  }
+  .loginPage .container .videoDiv .formDiv .headerDiv img, .registerPage .container .videoDiv .formDiv .headerDiv img {
+    width: 40px;
+  }
+  .loginPage .container .videoDiv .formDiv .headerDiv h3, .registerPage .container .videoDiv .formDiv .headerDiv h3 {
+    font-size: 20px;
+  }
+  .loginPage .container .videoDiv .formDiv .form, .registerPage .container .videoDiv .formDiv .form {
+    gap: 0.5rem;
+  }
+  .loginPage .container .videoDiv .formDiv .form .inputDiv input, .registerPage .container .videoDiv .formDiv .form .inputDiv input {
+    width: 100%;
+  }
 }/*# sourceMappingURL=App.css.map */

@@ -369,6 +369,31 @@ img, video{
                         padding: .4rem 1.5rem;
                     }
                 }
+
+                .formDiv{
+                    gap: 1rem;
+                    transform: translateY(-.5rem);
+
+                    .headerDiv{
+                        img{
+                            width: 40px;
+                        }
+
+                        h3{
+                            font-size: 20px;
+                        }
+                    }
+
+                    .form{
+                        gap: .5rem;
+
+                        .inputDiv{
+                            input{
+                                width: 100%;
+                            }
+                        }
+                    }
+                }
             }
         }
     }
