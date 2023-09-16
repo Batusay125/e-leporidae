@@ -59,7 +59,7 @@
   bottom: 0;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
-  background: var(--PrimaryColor);
+  background: var(--PrimayColor);
 }
 .sideBar .menuDiv .menuLists .listItem .menuLink, .sideBar .settingsDiv .menuLists .listItem .menuLink {
   color: var(--greyText);
@@ -77,22 +77,23 @@
   height: 100%;
   transition: 0.3s ease;
 }
-.sideBar .menuDiv .menuLists .logout, .sideBar .settingsDiv .menuLists .logout {
+.sideBar .logoutDiv .menu .logout {
   padding: 0.5rem 0.5rem;
   width: 100%;
-  position: relative;
+  position: center;
   background-color: var(--PrimaryColor);
-  border-radius: 15px;
+  border-radius: 2.5px;
 }
-.sideBar .menuDiv .menuLists .logout .link, .sideBar .settingsDiv .menuLists .logout .link {
+.sideBar .logoutDiv .menu .logout .link {
   color: var(--whiteColor);
   font-weight: 100;
   transition: 0;
+  position: relative;
 }
-.sideBar .menuDiv .menuLists .logout .link .icon, .sideBar .settingsDiv .menuLists .logout .link .icon {
+.sideBar .logoutDiv .menu .logout .link .icon {
   margin-right: 0.5rem;
 }
-.sideBar .menuDiv .menuLists .logout .link .smallText, .sideBar .settingsDiv .menuLists .logout .link .smallText {
+.sideBar .logoutDiv .menu .logout .link .smallText {
   font-size: 15px;
 }
 .sideBar .sideBarCard {

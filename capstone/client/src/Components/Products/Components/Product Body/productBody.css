@@ -1,0 +1,11 @@
+.productContent {
+  width: 82%;
+  height: 100%;
+  padding: 2rem;
+  overflow: hidden;
+}
+.productContent .productBottom {
+  margin-top: 2rem;
+  gap: 2rem;
+  align-items: flex-start;
+}/*# sourceMappingURL=productBody.css.map */

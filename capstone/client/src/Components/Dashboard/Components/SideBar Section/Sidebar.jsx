@@ -14,6 +14,9 @@ import {MdPermContactCalendar} from 'react-icons/md'
 import {BsCreditCard2Back} from 'react-icons/bs'
 import {BsQuestionDiamondFill} from 'react-icons/bs'
 import {BiLeftArrowAlt} from 'react-icons/bi'
+import {BsArrowLeftCircle} from 'react-icons/bs'
+import order from '../../../Orders/order'
+
 
 const Sidebar = () => {
   return (
@@ -30,7 +33,7 @@ const Sidebar = () => {
         </h3>
         <ul className="menuLists grid">
           <li className="listItem">
-            <a href="#" className='menuLink'>
+            <a href={'/dashboard'} className='menuLink'>
               <IoMdSpeedometer className="icon"/>
               <span className="smallText">
                 Dashboard
@@ -39,25 +42,16 @@ const Sidebar = () => {
           </li>
 
           <li className="listItem">
-            <a href="#" className='menuLink'>
+            <a href={'/delivery'} className='menuLink'>
               <MdDeliveryDining className="icon"/>
               <span className="smallText">
-                My Orders
+                Delivery
               </span>
             </a>
           </li>
 
           <li className="listItem">
-            <a href="#" className='menuLink'>
-              <MdOutlineExplore className="icon"/>
-              <span className="smallText">
-                Explore
-              </span>
-            </a>
-          </li>
-
-          <li className="listItem">
-            <a href="#" className='menuLink'>
+            <a href={'/products'} className='menuLink'>
               <BsTrophy className="icon"/>
               <span className="smallText">
                 Products
@@ -74,7 +68,7 @@ const Sidebar = () => {
         </h3>
         <ul className="menuLists grid">
           <li className="listItem">
-            <a href="#" className='menuLink'>
+            <a href={'/charts'} className='menuLink'>
               <AiFillPieChart className="icon"/>
               <span className="smallText">
                 Charts
@@ -83,7 +77,7 @@ const Sidebar = () => {
           </li>
 
           <li className="listItem">
-            <a href="#" className='menuLink'>
+            <a href={'/breed'} className='menuLink'>
               <AiTwotoneHeart className="icon"/>
               <span className="smallText">
                 Breed
@@ -92,7 +86,7 @@ const Sidebar = () => {
           </li>
 
           <li className="listItem">
-            <a href="#" className='menuLink'>
+            <a href={'/contacts'} className='menuLink'>
               <MdPermContactCalendar className="icon"/>
               <span className="smallText">
                 Contact
@@ -101,26 +95,26 @@ const Sidebar = () => {
           </li>
 
           <li className="listItem">
-            <a href="#" className='menuLink'>
+            <a href={'/billing'} className='menuLink'>
               <BsCreditCard2Back className="icon"/>
               <span className="smallText">
                 Billing
               </span>
             </a>
           </li>
+        </ul>
+      </div>
 
-          <li className="logout">
-            <a href="#" className='link'>
-              
+      <div className="logoutDiv">
+        <ul className="menu grid">
+        <button className="logout">
+            <a href={'/'} className='link'>
+            <BsArrowLeftCircle className="icon"/>
               <span className="smallText">
-              <Link to={'/'}>
-                <button className='btn1'> Log Out</button>
-                </Link>
-                
+               Logout
               </span>
             </a>
-          </li>
-
+          </button>
         </ul>
       </div>
 

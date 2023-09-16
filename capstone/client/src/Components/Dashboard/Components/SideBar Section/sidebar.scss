@@ -64,7 +64,7 @@
            bottom: 0;
            border-top-left-radius: 10px;
            border-bottom-left-radius: 10px;
-           background: var(--PrimaryColor);
+           background: var(--PrimayColor);
         }
 
         .menuLink{
@@ -85,17 +85,22 @@
           transition: .3s ease;
         }
       }
+    }
+  }
+  .logoutDiv{
+    .menu{
       .logout{
         padding: .5rem .5rem;
         width: 100%;
-        position: relative;
+        position: center;
         background-color: var(--PrimaryColor);
-        border-radius: 15px;
-
+        border-radius: 2.5px;
+  
         .link{
           color: var(--whiteColor);
           font-weight: 100;
           transition: 0;
+          position: relative;
           .icon{
             margin-right: .5rem;
           }
@@ -105,8 +110,8 @@
         }
       }
     }
-    
   }
+
 
   .sideBarCard{
     width: 100%;

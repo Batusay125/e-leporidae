@@ -1,0 +1,11 @@
+.contactContent {
+  width: 82%;
+  height: 100%;
+  padding: 2rem;
+  overflow: hidden;
+}
+.contactContent .contactBottom {
+  margin-top: 2rem;
+  gap: 2rem;
+  align-items: flex-start;
+}/*# sourceMappingURL=bodyContact.css.map */
